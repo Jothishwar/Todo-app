@@ -117,3 +117,31 @@ html,body{
 	margin: 2px;
 	padding: 2px;
 }
+
+
+@media(max-width: 425px){
+	.container{
+		width: 300px;
+	}
+	.entry input{
+		width: 210px;
+	}
+	.entry button{
+		width: 60px;
+	}
+	#task_list{
+		padding: 0px 10px;
+	}
+}
+
+@media(max-width: 320px){
+	.container{
+		width: 260px;
+	}
+	.entry input{
+		width: 180px;
+	}
+	.entry button{
+		width: 50px;
+	}
+}
